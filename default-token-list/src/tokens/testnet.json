@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Wrapped KCS",
+    "address": "0xB296bAb2ED122a85977423b602DdF3527582A3DA",
+    "symbol": "WKCS",
+    "decimals": 18,
+    "chainId": 322,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/testnet/tokens/0xB296bAb2ED122a85977423b602DdF3527582A3DA/logo.png"
+  },
+  {
+    "name": "USD Coin",
+    "address": "0xD6c7E27a598714c2226404Eb054e0c074C906Fc9",
+    "symbol": "USDC",
+    "decimals": 18,
+    "chainId": 322,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/testnet/tokens/0xD6c7E27a598714c2226404Eb054e0c074C906Fc9/logo.png"
+  },
+  {
+    "name": "Tether USD",
+    "address": "0x67f6a7BbE0da067A747C6b2bEdF8aBBF7D6f60dc",
+    "symbol": "USDT",
+    "decimals": 18,
+    "chainId": 322,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/testnet/tokens/0x67f6a7BbE0da067A747C6b2bEdF8aBBF7D6f60dc/logo.png"
+  },
+  {
+    "name": "KS Test",
+    "address": "0xb0fabEED45da483915e2E80a0109dBC6f01E7F98",
+    "symbol": "KSTEST",
+    "decimals": 18,
+    "chainId": 322,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/testnet/tokens/0xb0fabEED45da483915e2E80a0109dBC6f01E7F98/logo.png"
+  }
+]

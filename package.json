@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "workspaces": [
+        "sdk",
+        "token-lists",
+        "default-token-list",
+        "exchange"
+    ],
+    "scripts": {
+        "build:mainnet": "cross-env GENERATE_SOURCEMAP=false REACT_APP_CHAIN_ID=321 REACT_APP_NETWORK_URL=https://rpc-mainnet.kcc.network yarn workspaces run build",
+        "build:testnet": "cross-env GENERATE_SOURCEMAP=false REACT_APP_CHAIN_ID=322 REACT_APP_NETWORK_URL=https://rpc-testnet.kcc.network yarn workspaces run build",
+        "build:web": "yarn workspace @koffeeswap/sdk build && yarn workspace @koffeeswap/exchange build",
+        "build:sdk": "yarn workspace @koffeeswap/sdk build",
+        "build:dtl": "yarn workspace @koffeeswap/default-token-list build",
+        "build:exchange": "yarn workspace @koffeeswap/exchange build",
+        "start": "cross-env REACT_APP_CHAIN_ID=322 REACT_APP_NETWORK_URL=https://rpc-testnet.kcc.network yarn workspace @koffeeswap/exchange start"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3"
+    }
+}

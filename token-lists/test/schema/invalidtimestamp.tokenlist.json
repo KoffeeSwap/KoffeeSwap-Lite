@@ -1,0 +1,31 @@
+{
+  "name": "My Example List",
+  "keywords": [
+    "abc"
+  ],
+  "tags": {
+    "coin": {
+      "name": "Stablecoin",
+      "description": "blah blah"
+    }
+  },
+  "timestamp": "abc",
+  "tokens": [
+    {
+      "name": "blah",
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://test",
+      "symbol": "abc",
+      "tags": [
+        "coin"
+      ]
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  }
+}

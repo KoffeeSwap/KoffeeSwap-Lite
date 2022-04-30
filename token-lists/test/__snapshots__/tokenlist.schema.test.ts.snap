@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`schema allows up to 10k tokens 1`] = `null`;
+
+exports[`schema checks extensions 1`] = `null`;
+
+exports[`schema checks extensions 2`] = `
+Array [
+  Object {
+    "dataPath": ".tokens[0].extensions['abc']",
+    "keyword": "type",
+    "message": "should be string",
+    "params": Object {
+      "type": "string",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/0/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['abc']",
+    "keyword": "type",
+    "message": "should be boolean",
+    "params": Object {
+      "type": "boolean",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/1/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['abc']",
+    "keyword": "type",
+    "message": "should be number",
+    "params": Object {
+      "type": "number",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/2/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['abc']",
+    "keyword": "type",
+    "message": "should be null",
+    "params": Object {
+      "type": "null",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/3/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['abc']",
+    "keyword": "anyOf",
+    "message": "should match some schema in anyOf",
+    "params": Object {},
+    "schemaPath": "#/definitions/ExtensionValue/anyOf",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['def']",
+    "keyword": "type",
+    "message": "should be string",
+    "params": Object {
+      "type": "string",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/0/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['def']",
+    "keyword": "type",
+    "message": "should be boolean",
+    "params": Object {
+      "type": "boolean",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/1/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['def']",
+    "keyword": "type",
+    "message": "should be number",
+    "params": Object {
+      "type": "number",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/2/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['def']",
+    "keyword": "type",
+    "message": "should be null",
+    "params": Object {
+      "type": "null",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/3/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['def']",
+    "keyword": "anyOf",
+    "message": "should match some schema in anyOf",
+    "params": Object {},
+    "schemaPath": "#/definitions/ExtensionValue/anyOf",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isBoolean']",
+    "keyword": "type",
+    "message": "should be string",
+    "params": Object {
+      "type": "string",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/0/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isBoolean']",
+    "keyword": "type",
+    "message": "should be boolean",
+    "params": Object {
+      "type": "boolean",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/1/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isBoolean']",
+    "keyword": "type",
+    "message": "should be number",
+    "params": Object {
+      "type": "number",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/2/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isBoolean']",
+    "keyword": "type",
+    "message": "should be null",
+    "params": Object {
+      "type": "null",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/3/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isBoolean']",
+    "keyword": "anyOf",
+    "message": "should match some schema in anyOf",
+    "params": Object {},
+    "schemaPath": "#/definitions/ExtensionValue/anyOf",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isNull']",
+    "keyword": "type",
+    "message": "should be string",
+    "params": Object {
+      "type": "string",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/0/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isNull']",
+    "keyword": "type",
+    "message": "should be boolean",
+    "params": Object {
+      "type": "boolean",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/1/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isNull']",
+    "keyword": "type",
+    "message": "should be number",
+    "params": Object {
+      "type": "number",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/2/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isNull']",
+    "keyword": "type",
+    "message": "should be null",
+    "params": Object {
+      "type": "null",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/3/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['isNull']",
+    "keyword": "anyOf",
+    "message": "should match some schema in anyOf",
+    "params": Object {},
+    "schemaPath": "#/definitions/ExtensionValue/anyOf",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['tooLong']",
+    "keyword": "maxLength",
+    "message": "should NOT be longer than 42 characters",
+    "params": Object {
+      "limit": 42,
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/0/maxLength",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['tooLong']",
+    "keyword": "type",
+    "message": "should be boolean",
+    "params": Object {
+      "type": "boolean",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/1/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['tooLong']",
+    "keyword": "type",
+    "message": "should be number",
+    "params": Object {
+      "type": "number",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/2/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['tooLong']",
+    "keyword": "type",
+    "message": "should be null",
+    "params": Object {
+      "type": "null",
+    },
+    "schemaPath": "#/definitions/ExtensionValue/anyOf/3/type",
+  },
+  Object {
+    "dataPath": ".tokens[0].extensions['tooLong']",
+    "keyword": "anyOf",
+    "message": "should match some schema in anyOf",
+    "params": Object {},
+    "schemaPath": "#/definitions/ExtensionValue/anyOf",
+  },
+]
+`;
+
+exports[`schema checks token address 1`] = `
+Array [
+  Object {
+    "dataPath": ".tokens[0].address",
+    "keyword": "pattern",
+    "message": "should match pattern \\"^0x[a-fA-F0-9]{40}$\\"",
+    "params": Object {
+      "pattern": "^0x[a-fA-F0-9]{40}$",
+    },
+    "schemaPath": "#/properties/address/pattern",
+  },
+]
+`;
+
+exports[`schema checks version 1`] = `
+Array [
+  Object {
+    "dataPath": ".version.patch",
+    "keyword": "minimum",
+    "message": "should be >= 0",
+    "params": Object {
+      "comparison": ">=",
+      "exclusive": false,
+      "limit": 0,
+    },
+    "schemaPath": "#/definitions/Version/properties/patch/minimum",
+  },
+]
+`;
+
+exports[`schema checks version 2`] = `
+Array [
+  Object {
+    "dataPath": ".version.minor",
+    "keyword": "minimum",
+    "message": "should be >= 0",
+    "params": Object {
+      "comparison": ">=",
+      "exclusive": false,
+      "limit": 0,
+    },
+    "schemaPath": "#/definitions/Version/properties/minor/minimum",
+  },
+]
+`;
+
+exports[`schema checks version 3`] = `
+Array [
+  Object {
+    "dataPath": ".version.major",
+    "keyword": "minimum",
+    "message": "should be >= 0",
+    "params": Object {
+      "comparison": ">=",
+      "exclusive": false,
+      "limit": 0,
+    },
+    "schemaPath": "#/definitions/Version/properties/major/minimum",
+  },
+]
+`;
+
+exports[`schema empty list fails 1`] = `
+Array [
+  Object {
+    "dataPath": ".tokens",
+    "keyword": "minItems",
+    "message": "should NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/tokens/minItems",
+  },
+]
+`;
+
+exports[`schema fails with 10001 tokens 1`] = `
+Array [
+  Object {
+    "dataPath": ".tokens",
+    "keyword": "maxItems",
+    "message": "should NOT have more than 10000 items",
+    "params": Object {
+      "limit": 10000,
+    },
+    "schemaPath": "#/properties/tokens/maxItems",
+  },
+]
+`;
+
+exports[`schema fails with big names 1`] = `
+Array [
+  Object {
+    "dataPath": ".tokens[0].name",
+    "keyword": "maxLength",
+    "message": "should NOT be longer than 40 characters",
+    "params": Object {
+      "limit": 40,
+    },
+    "schemaPath": "#/properties/name/maxLength",
+  },
+]
+`;
+
+exports[`schema invalid decimals 1`] = `
+Array [
+  Object {
+    "dataPath": ".tokens[0].decimals",
+    "keyword": "maximum",
+    "message": "should be <= 255",
+    "params": Object {
+      "comparison": "<=",
+      "exclusive": false,
+      "limit": 255,
+    },
+    "schemaPath": "#/properties/decimals/maximum",
+  },
+]
+`;
+
+exports[`schema invalid decimals 2`] = `
+Array [
+  Object {
+    "dataPath": ".tokens[0].decimals",
+    "keyword": "minimum",
+    "message": "should be >= 0",
+    "params": Object {
+      "comparison": ">=",
+      "exclusive": false,
+      "limit": 0,
+    },
+    "schemaPath": "#/properties/decimals/minimum",
+  },
+]
+`;
+
+exports[`schema invalid logo URI 1`] = `
+Array [
+  Object {
+    "dataPath": ".tokens[0].logoURI",
+    "keyword": "format",
+    "message": "should match format \\"uri\\"",
+    "params": Object {
+      "format": "uri",
+    },
+    "schemaPath": "#/properties/logoURI/format",
+  },
+]
+`;
+
+exports[`schema invalid logo URI 2`] = `
+Array [
+  Object {
+    "dataPath": ".logoURI",
+    "keyword": "format",
+    "message": "should match format \\"uri\\"",
+    "params": Object {
+      "format": "uri",
+    },
+    "schemaPath": "#/properties/logoURI/format",
+  },
+]
+`;
+
+exports[`schema invalid timestamp 1`] = `
+Array [
+  Object {
+    "dataPath": ".timestamp",
+    "keyword": "format",
+    "message": "should match format \\"date-time\\"",
+    "params": Object {
+      "format": "date-time",
+    },
+    "schemaPath": "#/properties/timestamp/format",
+  },
+]
+`;
+
+exports[`schema minimum example schema 1`] = `null`;
+
+exports[`schema requires name, timestamp, version, tokens 1`] = `
+Array [
+  Object {
+    "dataPath": "",
+    "keyword": "required",
+    "message": "should have required property 'name'",
+    "params": Object {
+      "missingProperty": "name",
+    },
+    "schemaPath": "#/required",
+  },
+  Object {
+    "dataPath": "",
+    "keyword": "required",
+    "message": "should have required property 'timestamp'",
+    "params": Object {
+      "missingProperty": "timestamp",
+    },
+    "schemaPath": "#/required",
+  },
+  Object {
+    "dataPath": "",
+    "keyword": "required",
+    "message": "should have required property 'version'",
+    "params": Object {
+      "missingProperty": "version",
+    },
+    "schemaPath": "#/required",
+  },
+  Object {
+    "dataPath": "",
+    "keyword": "required",
+    "message": "should have required property 'tokens'",
+    "params": Object {
+      "missingProperty": "tokens",
+    },
+    "schemaPath": "#/required",
+  },
+]
+`;
+
+exports[`schema works for big example schema 1`] = `null`;
+
+exports[`schema works for example schema 1`] = `null`;
+
+exports[`schema works for special characters schema 1`] = `null`;

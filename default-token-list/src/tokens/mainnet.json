@@ -1,0 +1,50 @@
+[
+  {
+    "name": "KoffeeSwap Token",
+    "address": "0xc0ffeE0000921eB8DD7d506d4dE8D5B79b856157",
+    "symbol": "KOFFEE",
+    "decimals": 18,
+    "chainId": 321,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/mainnet/tokens/0xc0ffeE0000921eB8DD7d506d4dE8D5B79b856157/logo.png"
+  },
+  {
+    "name": "Tether USD",
+    "address": "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48",
+    "symbol": "USDT",
+    "decimals": 18,
+    "chainId": 321,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/mainnet/tokens/0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48/logo.png"
+  },
+  {
+    "name": "USD Coin",
+    "address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430",
+    "symbol": "USDC",
+    "decimals": 18,
+    "chainId": 321,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/mainnet/tokens/0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430/logo.png"
+  },
+  {
+    "name": "KuDoge",
+    "address": "0x6665D66aFA48F527d86623723342CfA258cB8666",
+    "symbol": "KuDo",
+    "decimals": 18,
+    "chainId": 321,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/mainnet/tokens/0x6665D66aFA48F527d86623723342CfA258cB8666/logo.png"
+  },
+  {
+    "name": "TIKU",
+    "address": "0xD4b52510719C594514CE7FED6CC876C03278cCf8",
+    "symbol": "TIKU",
+    "decimals": 18,
+    "chainId": 321,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/mainnet/tokens/0xD4b52510719C594514CE7FED6CC876C03278cCf8/logo.png"
+  },
+  {
+    "name": "Wrapped KCS",
+    "address": "0x4446Fc4eb47f2f6586f9fAAb68B3498F86C07521",
+    "symbol": "WKCS",
+    "decimals": 18,
+    "chainId": 321,
+    "logoURI": "https://raw.githubusercontent.com/KoffeeSwap/kcc-assets/main/mainnet/tokens/0x4446Fc4eb47f2f6586f9fAAb68B3498F86C07521/logo.png"
+  }
+]

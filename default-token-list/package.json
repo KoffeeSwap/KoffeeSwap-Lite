@@ -1,0 +1,30 @@
+{
+  "name": "@koffeeswap/default-token-list",
+  "version": "2.0.0",
+  "description": "KoffeeSwap Default Token List",
+  "main": "build/koffeeswap-default.tokenlist.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && node src/makeDir.js && node src/write.js > build/koffeeswap-default.tokenlist.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/koffeeswap-default.tokenlist.json"
+  ],
+  "private": true,
+  "keywords": [
+    "koffeeswap",
+    "default",
+    "token",
+    "list"
+  ],
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@koffeeswap/token-lists": "*",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
